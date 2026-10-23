@@ -1,0 +1,18 @@
+# Virtualenv
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Editor and OS local state
+.vscode/
+.idea/
+.DS_Store
+
+# MediaPipe model weights, downloaded on first run
+*.task
+
+# Session output
+angles_*.csv
+*.rep.csv
